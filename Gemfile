@@ -24,15 +24,21 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
 gem	'active_model_serializers'
+gem	"devise"
+
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-#gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
   group :development do
   	#gem 'sqlite3'
+  end
+  group :test do
+  	gem "rspec-rails"
+  	gem "factory_girl_rails"
+  	gem 'ffaker'
   end
 end
 
@@ -47,3 +53,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
