@@ -33,6 +33,7 @@ group	:test	do
 		gem	"rspec-rails"
 		gem	"factory_girl_rails"
 		gem	'ffaker'
+				gem	"shoulda-matchers"
 end
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
