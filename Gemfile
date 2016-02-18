@@ -33,7 +33,7 @@ group	:test	do
 		gem	"rspec-rails"
 		gem	"factory_girl_rails"
 		gem	'ffaker'
-				gem	"shoulda-matchers"
+  gem 'shoulda-matchers', '~> 3.0.0'
 end
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -41,6 +41,7 @@ group :doc do
 end
 group	:development	do
 		gem	'sqlite3'
+  gem 'shoulda-matchers', '~> 3.0.0'
 end
 
 # Use ActiveModel has_secure_password
