@@ -1,0 +1,59 @@
+	
+app ke:qbrog2js58gz56b
+
+
+	
+x87ilbmd6tlkv3w
+
+uid:531617539
+
+
+access_token: aogmb5qpq69xd8qk
+access_token_secret: q7z9wnsi1fac541
+user_id: 531617539
+
+access_token: eabkd4zjdks6oij6
+access_token_secret: wmkx1p2t912q5ut
+
+http://www.tutorialspoint.com/ruby-on-rails/rails-file-uploading.htm
+
+
+
+To list all contents in the top-level directory:
+$ ./dropbox_uploader.sh list
+
+To list all contents in a specific folder:
+$ ./dropbox_uploader.sh list Documents/manuals
+
+To upload a local file to a remote Dropbox folder:
+$ ./dropbox_uploader.sh upload snort.pdf Documents/manuals
+
+To download a remote file from Dropbox to a local file:
+$ ./dropbox_uploader.sh download Documents/manuals/mysql.pdf ./mysql.pdf
+
+To download an entire remote folder from Dropbox to a local folder:
+$ ./dropbox_uploader.sh download Documents/manuals ./manuals
+
+To create a new remote folder on Dropbox:
+$ ./dropbox_uploader.sh mkdir Documents/whitepapers
+
+To delete an entire remote folder (including all its contents) on Dropbox:
+$ ./dropbox_uploader.sh delete Documents/manuals 
+
+
+https://www.maketecheasier.com/manage-dropbox-in-terminal/
+
+
+./dropbox_uploader.sh upload Gemfile Documents/d3_sample
+
+
+
+
+http://code.tutsplus.com/tutorials/build-a-dropbox-like-file-sharing-site-with-ruby-on-rails--net-17940
+
+
+
+http://code.runnable.com/UnnhcBiQoFhwAAEb/how-to-upload-files-using-paperclip-for-ruby-on-rails
+
+
+http://jonathanhui.com/ruby-rails-3-view-form-helper-file-upload-download
